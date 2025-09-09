@@ -72,6 +72,14 @@ type Config struct {
 	Tests            []string
 	MinVersion       GoVersion
 }
+type Config struct {
+	Name             string
+	Namespace        string
+	Main             string
+	DefaultBuildTags []string
+	Tests            []string
+	MinVersion       GoVersion
+}
 
 var (
 	verbose   bool
